@@ -1,0 +1,45 @@
+form {
+    padding: 20px;
+    text-align: center;
+}
+
+form h1 {
+    background: #d2b5b5;
+    padding: 20px;
+    width: 80%;
+    border-radius: 4px;
+    margin: auto;
+}
+
+.user__info {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 50px auto;
+}
+
+form input {
+    border: none;
+    padding: 20px;
+    margin: 10px;
+    background: #eaeaea;
+    border-radius: 4px;
+}
+
+form button {
+    margin: 10px;
+}
+
+form input::placeholder {
+    color: black;
+}
+
+@media (max-width:600px) {
+    .user__info {
+        width: 90%;
+    }
+
+    form input {
+        padding: 10px;
+    }
+}

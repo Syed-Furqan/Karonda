@@ -1,0 +1,53 @@
+.home h1 {
+    background: #eed5d5;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    color: #b36060;
+    margin-bottom: 40px;
+}
+
+.home__add {
+    width: 150px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.home h1 span {
+    font-size: 15px;
+    margin-left: 20px;
+    color: #00427c;
+}
+
+.home .col-lg-3, .col-md-4 .col-sm-6 .col-xs-12 {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 18px;
+    color: #ae6440;
+}
+
+.card{
+    height: 100%;
+    transition: transform 450ms;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card-body p {
+    font-size: 13px;
+}
+
+.home__buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home__buttons p {
+    flex-grow: 1;
+    margin: 3px;
+}
